@@ -1,5 +1,5 @@
-<div class="hero-section">
-    <div class="hero-content">
+<div class="landing-page-section">
+    <div class="landing-page-content">
         <h1>DKS Documentation <br> that just works </h1>
         <p>Diamond King Software Indian Accounting & <br> Inventory Management Software Help Guide</p>
         <a href = "getting_started" class="quick-start-button"> Quick Start </a>

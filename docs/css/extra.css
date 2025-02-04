@@ -9,16 +9,16 @@ nav .md-nav__title {
 
 
 
-.hero-section {
+.landing-page-section {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh; /* Full viewport height */
+    height: 100vh; 
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Move content to the left */
-    padding-left: 15%; /* Adjust left position */
+    justify-content: flex-start; 
+    padding-left: 15%; 
     text-align: left;
     background-size: cover;
     background-position: center;
@@ -27,8 +27,8 @@ nav .md-nav__title {
     transition: background-image 0.5s ease-in-out;
 }
 
-/* Hero Content (Text + Button) */
-.hero-content {
+
+.landing-page-content {
     max-width: 600px; /* Prevents text from stretching too much */
 
 }
@@ -44,11 +44,11 @@ nav .md-nav__title {
 }
 
 /* Apply Background */
-.hero-section {
+.landing-page-section {
     background-image: var(--background-image);
 }
 
-/* Quick Start Button */
+
 .quick-start-button {
     display: inline-block;
     padding: 12px 20px;
@@ -77,7 +77,7 @@ nav .md-nav__title {
     padding: 10px 15px;
     font-size: 14px;
     font-weight: bold;
-    background-color: #2196f3; /* Initial background color */
+    background-color: #2196f3; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -93,7 +93,7 @@ nav .md-nav__title {
     transform: translateY(0);
 }
 
-/* Hover Effect */
+
 .back-to-top:hover {
     background-color: #b0eb00 !important;
 }

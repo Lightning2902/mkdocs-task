@@ -20,26 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//this is for anchorlinks
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const heading = document.getElementById('welcome-to-dks-accounting-software');
-//     const revealIcon = document.querySelector('.icon-link'); // Directly target the span by class
-  
-//     if (revealIcon && heading) { // Check if both elements exist!
-//       revealIcon.style.display = 'none';
-  
-//       heading.addEventListener('mouseover', () => {
-//         revealIcon.style.display = 'inline';
-//       });
-  
-//       heading.addEventListener('mouseout', () => {
-//         revealIcon.style.display = 'none';
-//       });
-//     }
-//   });
 
 
+//anchor links and heading-id logic
 document.addEventListener('DOMContentLoaded', function() {
     const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
   
