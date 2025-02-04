@@ -1,0 +1,100 @@
+
+label#__nav_2_label.md-nav__link{
+    display:none;
+ }
+
+nav .md-nav__title {
+    display: none !important;
+}
+
+
+
+.hero-section {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Move content to the left */
+    padding-left: 15%; /* Adjust left position */
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     z-index: 0; 
+    transition: background-image 0.5s ease-in-out;
+}
+
+/* Hero Content (Text + Button) */
+.hero-content {
+    max-width: 600px; /* Prevents text from stretching too much */
+
+}
+
+/* Light Mode Background */
+:root {
+    --background-image: url('../img/lightmode3.jpg'); /* Change to your actual image */
+}
+
+/* Dark Mode Background */
+[data-md-color-scheme="slate"] {
+    --background-image: url('../img/darkmode2.jpg');
+}
+
+/* Apply Background */
+.hero-section {
+    background-image: var(--background-image);
+}
+
+/* Quick Start Button */
+.quick-start-button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+.quick-start-button:hover {
+    background-color: #b0eb00;
+    color: black  !important;
+}
+
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2196f3; /* Initial background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Show Button on Scroll */
+.back-to-top.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Hover Effect */
+.back-to-top:hover {
+    background-color: #b0eb00 !important;
+}
+

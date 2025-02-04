@@ -1,0 +1,94 @@
+site_name: Task Docs
+site_url: https://taskdocs.example
+
+nav:
+    - 'Welcome': index.md
+    - 'Getting Started': 
+        - 'Getting Started': getting_started.md
+        - 'Page 1': page1.md
+        - 'Page 2': page2.md
+    - 'Company Master': company_master.md
+    - 'Accounting': accounting.md
+    - 'Stock': stock.md
+    - 'Reporting': reporting.md
+    - 'Extra Features': extra_features.md
+    - 'Updates': updates.md
+
+
+theme:
+  name: material
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - search.highlight
+    - search.share
+    - search.suggest
+    - navigation.footer
+    - navigation.indexes
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+
+
+
+
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue grey
+      accent: light green
+
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep orange
+
+
+
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+
+extra_css:
+    - css/extra.css
+
+extra_javascript:
+  - js/extra.js
+    
+
+extra:
+  anchor_links:
+    icon: material-link  # Uses Material Icon for links
+    position: before  # Places icon before the heading
+    visible: hover  # Only visible on hover
+
+
+
+
+
+
+
+
+
+
+
