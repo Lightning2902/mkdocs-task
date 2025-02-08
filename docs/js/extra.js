@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 //anchor links and heading-id logic
 document.addEventListener('DOMContentLoaded', function() {
-    const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    const headings = document.querySelectorAll(' h2, h3, h4, h5, h6');
   
     headings.forEach(heading => {
       const revealIcon = heading.querySelector('.icon-link'); // Find the icon *inside* the heading

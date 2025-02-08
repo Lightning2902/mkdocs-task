@@ -1,6 +1,6 @@
 <button class="back-to-top">
     ⬆ Back to Top
-</button>
+</button> 
 
 # Welcome to DKS Accounting Software <a id="welcome-to-dks-accounting-software"></a><span class="hover-reveal icon-link">[:fontawesome-solid-paragraph:](#welcome-to-dks-accounting-software)</span>
 
