@@ -8,6 +8,8 @@ This is the documentation for DKS Accounting Software,a comprehensive guide for 
 
 Documentation will be added soon.
 
+new line added
+
 
 # Setup <a id="setup"></a><span class="hover-reveal icon-link">[:fontawesome-solid-paragraph:](#setup)</span>
 
